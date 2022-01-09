@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.32">
+    <root id="1">
+      <ServerVersion>5.0.5</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="Pokedex"/>
+    <schema id="3" parent="1" name="admin"/>
+    <schema id="4" parent="1" name="config"/>
+    <schema id="5" parent="1" name="local"/>
+    <table id="6" parent="2" name="pokemon"/>
+    <column id="7" parent="6" name="_id">
+      <DataType>ObjectId|12s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="8" parent="6" name="ThumbnailAltText">
+      <DataType>String|12s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="9" parent="6" name="ThumbnailImage">
+      <DataType>String|12s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="10" parent="6" name="abilities">
+      <DataType>Array|2003s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="11" parent="6" name="featured">
+      <DataType>String|12s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="12" parent="6" name="height">
+      <DataType>Double|8s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="13" parent="6" name="id">
+      <DataType>Int32|4s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="14" parent="6" name="name">
+      <DataType>String|12s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="15" parent="6" name="number">
+      <DataType>String|12s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="16" parent="6" name="slug">
+      <DataType>String|12s</DataType>
+      <Position>10</Position>
+    </column>
+    <column id="17" parent="6" name="type">
+      <DataType>Array|2003s</DataType>
+      <Position>11</Position>
+    </column>
+    <column id="18" parent="6" name="weakness">
+      <DataType>Array|2003s</DataType>
+      <Position>12</Position>
+    </column>
+    <column id="19" parent="6" name="weight">
+      <DataType>Double|8s</DataType>
+      <Position>13</Position>
+    </column>
+  </database-model>
+</dataSource>
